@@ -11,6 +11,8 @@
 
 .header-logo {
     padding-left: 80px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .navbar ul {
@@ -19,4 +21,8 @@
     gap: 15px;
     padding-right: 80px;
     font-size: 17px;
+}
+
+ul {
+    text-decoration: none;
 }
