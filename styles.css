@@ -83,3 +83,39 @@ hero {
     text-transform: uppercase;
     border-radius: 8px;
 }
+
+.images {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 36px;
+    text-align: center;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 32px;
+}
+
+.albums-container {
+    display: flex;
+    margin: 5%;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.information {
+    max-width: 150px;
+}
+
+.para-album {
+    background-color: #3882f6;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -2%;
+}
