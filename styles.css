@@ -10,5 +10,35 @@ header {
     height: 100%;
     align-items: center;
     background-color: #1f2937;
-    padding-bottom: 1.5%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: inline-block;
+}
+
+li a::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background-color: rgb(96, 155, 155);
+    transition: all .5s;
+}
+
+.logo {
+    display: flex;
+}
+
+li a:hover::after {
+    width: 100%;
 }
