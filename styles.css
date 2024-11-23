@@ -42,3 +42,44 @@ li a::after {
 li a:hover::after {
     width: 100%;
 }
+
+hero {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    height: calc(80vh-40px);
+    align-items: center;
+    background-color: #1f2937;
+    padding: 30px 10px;
+    padding-bottom: 5%; 
+}
+
+.left-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 25%;
+
+}
+
+.left-main h1 {
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.left-main p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-main button {
+    width: fit-content;
+    padding: 10px 30px;
+    color: white;
+    background-color: #3882f6;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
