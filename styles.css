@@ -170,3 +170,11 @@ hero {
     text-decoration: none;
     color: white;
 }
+
+.Copyright {
+    background-color: #1f2937;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding: 25px;
+}
